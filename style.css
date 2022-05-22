@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hesapmakinesi {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    width: 28rem;
+    height: 42rem;
+    margin: 1rem auto;
+    border-radius: 30px;
+}
+
+.yukarı {
+    margin-bottom: 2rem;
+    height: 9rem;
+}
+
+.buton {
+    background-color: #333333;
+    border-radius: 50rem;
+    width: 5rem;
+    height: 5rem;
+    margin-left: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    float: left;
+}
+
+.butonişlem{
+    background-color: #F29E4B;
+    border-radius: 50rem;
+    width: 5rem;
+    height: 5rem;
+    margin-left: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    float: left;
+
+}
+
+.buton:hover {
+    opacity: 0.8;
+}
+
+.num0 {
+    display: flex;
+    justify-content: left;
+    width: 11.5rem;
+}
+
+.sıfır{
+    padding-left: 2rem;
+}
+
+#ac{
+    background-color: gray;
+    color: black;
+}
+#artıeksi{
+    background-color: gray;
+    color: black;
+}
+
+#yüzde{
+    background-color: gray;
+    color: black;
+}
+
+#eşittir{
+    background-color: gray;
+    color: black;
+}
